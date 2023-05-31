@@ -13,8 +13,3 @@ provider "aviatrix" {
   password                = var.controller_password
   skip_version_validation = true
 }
-
-provider "azurerm" {
-  features {}
-  subscription_id = ""
-}
